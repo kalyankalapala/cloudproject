@@ -7,7 +7,7 @@ sudo amazon-linux-extras install nginx1 -y
 sudo systemctl enable nginx
 sudo systemctl restart nginx
 
-sudo rm -rf /home/ec2-user/nodeproject
+sudo rm -rf /home/ec2-user/dockernodejs
 
 ### security practices of aws ci/cd
 
