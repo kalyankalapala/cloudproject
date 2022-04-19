@@ -1,10 +1,10 @@
   
-### appspec.yml ####
+### appspec.yml #####
 version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/dockernodejs
+    destination: /home/ec2-user/cloudproject
 permissions:
   - object: /home/ec2-user
     owner: ec2-user  ### Add user kalyan in the ec2 instances and we can deploy these file to the ec2-instances. Else codedeploy fails for not mentioning appropriate user in the appspec.yml file
